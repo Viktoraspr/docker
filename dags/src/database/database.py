@@ -14,7 +14,7 @@ class Job(Base):
     """
     Class describe table 'cities' in database
     """
-    __tablename__ = "job"
+    __tablename__ = "jobs"
     id = Column(Integer, primary_key=True, autoincrement=True)
     portal = Column(String(50))
     company = Column(String(80))
